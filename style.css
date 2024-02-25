@@ -75,6 +75,25 @@ html,body{
 }
 
 
+#next-btn{
+
+    background-color: #00291c;
+    color: #fff;
+    font-weight: 100;
+    width: 140px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: all .2s linear;
+    visibility: hidden;
+}
+#next-btn:hover{
+    transform: translateY(-2px);
+    opacity: .9;
+}
 
 
 
