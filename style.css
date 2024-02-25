@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #036444;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.main-header{
+ width: 100%;
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: url(https://images.unsplash.com/photo-1568952433726-3896e3881c65?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.app{
+    background: #ffffff7b;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+.app >h1{
+    font-size: 25px;
+    color: #222;
+    font-weight: bold;
+    border-bottom: 1px solid #cdcdcd;
+    color:#0000FF;
+    padding-bottom: .7rem;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz >h2{
+    font-size: 18px;
+    color: #00291c;
+    font-weight: 100;
+}
+#answer-buttons{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    background-color: #fff;
+    color: #00291c;
+    font-weight: 100;
+    width: 100%;
+    border: 1px solid #00291c;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    transition: all .25s linear;
+}
+.btn:hover:enabled
+{
+    background-color: #00291c;
+    color: #fff;
+}
+.btn:disabled{
+    cursor:not-allowed;
+}
+
+
+
+
+
+
